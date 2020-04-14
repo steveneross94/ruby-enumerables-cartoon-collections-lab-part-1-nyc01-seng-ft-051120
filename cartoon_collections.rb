@@ -12,6 +12,6 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   array.each do |dwarves|
-    puts "1.#{dwarves}"
+    puts "1.*#{dwarves}"
   end
 end
